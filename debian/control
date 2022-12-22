@@ -1,0 +1,24 @@
+Source: node-validate-npm-package-license
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12)
+ , node-spdx-correct <!nocheck>
+ , node-spdx-expression-parse <!nocheck>
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-validate-npm-package-license
+Vcs-Git: https://salsa.debian.org/js-team/node-validate-npm-package-license.git
+Homepage: https://github.com/kemitchell/validate-npm-package-license.js
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-validate-npm-package-license
+Architecture: all
+Depends: ${misc:Depends}
+ , node-spdx-correct
+ , node-spdx-expression-parse
+ , nodejs
+Description: Tells if a string is a valid npm package license string
+ Node.js is an event-based server-side JavaScript engine.
