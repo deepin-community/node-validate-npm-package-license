@@ -13,7 +13,7 @@ Comment: The upstream distribution does not contain an explicit statement of
 
 Files: debian/*
 Copyright: 2016 Sruthi Chandran <srud@disroot.org>
- 2020 Xavier Guimard <yadd@debian.org>
+ 2020 Yadd <yadd@debian.org>
 License: Apache-2.0
 
 License: Apache-2.0
